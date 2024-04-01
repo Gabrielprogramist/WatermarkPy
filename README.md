@@ -25,6 +25,7 @@ You will also need a font for creating the watermark. Place the font file in a f
 4. Save the result using the save method.
 
 Example code: 
+```bash
 from watermarker import Watermarker, WatermarkerStyles
 
 watermarker = Watermarker(
@@ -34,3 +35,4 @@ watermarker = Watermarker(
 )
 watermarked_image = watermarker.add_watermarks()
 watermarker.save('path_for_saving/puppy_watermarked.jpg')
+```
